@@ -1,11 +1,13 @@
 import React from "react";
 import "./style.css";
 
+import Square from "./Square.js"
+
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <h1>tres en linea</h1>
+      <Square></Square>
     </div>
   );
 }
